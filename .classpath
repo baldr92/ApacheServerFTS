@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="libs"/>
+	<classpathentry kind="src" path="xml"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="libs/annotations-api.jar"/>
+	<classpathentry kind="lib" path="libs/catalina-ant.jar"/>
+	<classpathentry kind="lib" path="libs/catalina-ha.jar"/>
+	<classpathentry kind="lib" path="libs/catalina-storeconfig.jar"/>
+	<classpathentry kind="lib" path="libs/catalina-tribes.jar"/>
+	<classpathentry kind="lib" path="libs/catalina.jar"/>
+	<classpathentry kind="lib" path="libs/ecj-4.7.3a.jar"/>
+	<classpathentry kind="lib" path="libs/el-api.jar"/>
+	<classpathentry kind="lib" path="libs/jasper-el.jar"/>
+	<classpathentry kind="lib" path="libs/jasper.jar"/>
+	<classpathentry kind="lib" path="libs/jaspic-api.jar"/>
+	<classpathentry kind="lib" path="libs/jsp-api.jar"/>
+	<classpathentry kind="lib" path="libs/servlet-api.jar"/>
+	<classpathentry kind="lib" path="libs/tomcat-api.jar"/>
+	<classpathentry kind="lib" path="libs/tomcat-coyote.jar"/>
+	<classpathentry kind="lib" path="libs/tomcat-dbcp.jar"/>
+	<classpathentry kind="lib" path="libs/tomcat-i18n-es.jar"/>
+	<classpathentry kind="lib" path="libs/tomcat-i18n-fr.jar"/>
+	<classpathentry kind="lib" path="libs/tomcat-i18n-ja.jar"/>
+	<classpathentry kind="lib" path="libs/tomcat-jdbc.jar"/>
+	<classpathentry kind="lib" path="libs/tomcat-jni.jar"/>
+	<classpathentry kind="lib" path="libs/tomcat-util-scan.jar"/>
+	<classpathentry kind="lib" path="libs/tomcat-util.jar"/>
+	<classpathentry kind="lib" path="libs/tomcat-websocket.jar"/>
+	<classpathentry kind="lib" path="libs/websocket-api.jar"/>
+	<classpathentry kind="lib" path="libs/org.apache.commons.io.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="libs/ojdbc14-14.1.1.1.jar"/>
+	<classpathentry kind="lib" path="libs/mchange-commons-java-0.2.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Obesp/Desktop/connectionDB/lib c3po/mchange-commons-java-0.2.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Obesp/Desktop/connectionDB/lib c3po/c3p0-0.9.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Obesp/Desktop/connectionDB/lib c3po/c3p0-oracle-thin-extras-0.9.5.2.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

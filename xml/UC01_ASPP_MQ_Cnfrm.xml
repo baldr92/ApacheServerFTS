@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Envelope>
+    <IntCustRuHeader>
+        <MessageID>4793f4a0-dad7-49ae-9115-a9d776c07ca3</MessageID>
+        <RefMessageID>a8bba35f-e1fd-42a4-8ce0-6b9a191ecea7</RefMessageID>
+        <SenderInformation>wmq://RU.FTS.RTU.TAM/KPSPP.INCOME</SenderInformation>
+        <ReceiverInformation>wmq://RU.FTS.RTU.TAM.POST/KPSPP.CLNT.RAIL2</ReceiverInformation>
+        <PreparationDateTime>2018-06-05T12:11:16</PreparationDateTime>
+        <XsdBased/>
+    </IntCustRuHeader>
+    <Body>
+        <Confirm>
+            <ServiceInfo>
+                <MQSeriesID/>
+                <MQSeriesCorrelationID>ID:414D512052552E4654532E5254552E5453DAFE5A252ECD08</MQSeriesCorrelationID>
+                <Sender>
+                    <User>U_RTU1</User>
+                    <WorkNode>10100000RTU1</WorkNode>
+                </Sender>
+                <Creator>
+                    <User>APLANA1</User>
+                    <WorkNode>10101010221</WorkNode>
+                </Creator>
+                <SoftVersion>5.9.0</SoftVersion>
+            </ServiceInfo>
+            <DocumentModeID>PPP.</DocumentModeID>
+        </Confirm>
+    </Body>
+</Envelope>

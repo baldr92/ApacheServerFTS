@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+   <Context>
+       <WatchedResource>WEB-INF/web.xml</WatchedResource>  
+   		 <Resource name="jdbc/DBTEST" 
+		   auth="Container"
+		   type="javax.sql.DataSource" 
+		   driverClassName="oracle.jdbc.OracleDriver"
+		   url="jdbc:oracle:thin:@10.22.93.34:1521:DBTEST"
+		   username="TESTUSER" 
+		   password="testuser" 
+		   maxActive="998" 
+		   maxIdle="100"
+		   maxWait="-1"/>
+		   
+		   <Resource name="jms/FTS.INCOME" 
+		   auth="Container"
+		   type="com.ibm.mq.jms.MQConnectionFactory" 
+		   factory="com.ibm.mq.jms.MQConnectionFactoryFactory"
+		   HOST="10.22.93.120"
+		   PORT="1414"
+		   CHAN="KPSPP.SVRCONN"
+		   TRAN="1"
+		   QMGR="RU.FTS.GNIVC"/>	
+		   
+		   
+	 <Resource name="jms/KPSPP.INCOME" 
+		   auth="Container"
+		   type="com.ibm.mq.jms.MQQueue" 
+		   factory="com.ibm.mq.jms.MQQueueFactory"
+		   QU="KPSPP.INCOME"/>
+		   
+
+   </Context>
